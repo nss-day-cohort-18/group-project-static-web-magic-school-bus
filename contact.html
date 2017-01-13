@@ -3,31 +3,41 @@
     <head>
         <meta charset="utf-8">
         <title>Magic School Bus</title>
-        <link rel="stylesheet" type="text/css" href="normalize.css">
         <link rel="stylesheet" type="text/css" href="styles.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito+Sans|Open+Sans" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <div id="heading-tag">
-                <h3>Magic<br> School<br> Bus<br> Inc.</h3>
-            </div> 
-<!--            //*** Navigation  ***///-->
-            <div class="nav-div">
-                <nav>
-                    <ul>
-                        <a href="index.html"><li>Home</li></a>
-                        <a href="products.html">
-                        <a href="products.html"><li>Products</li></a>
-                        <a href="about.html"><li>About</li></a>
-                        <a href="contact.html"><li>Contact</li></a>
-                     </ul>
-                </nav>
-            </div>          
-        </header>
-
-        <section>
-        </section>
+        
+            <header>
+                <div id="heading-tag">
+                    <h3 id="logo">Magic<br> School<br> Bus<br> Inc.</h3>
+                </div> 
+    <!--            //*** Navigation  ***///-->
+                <div class="nav-div">
+                    <nav>
+                        <ul>
+                            <a href="index.html"><li>Home</li></a>
+                            <a href="products.html">
+                            <a href="products.html"><li>Products</li></a>
+                            <a href="about.html"><li>About</li></a>
+                            <a href="contact.html"><li>Contact</li></a>
+                         </ul>
+                    </nav>
+                </div>          
+            </header>
+    <!--        <fieldset>-->
+                <div class="commentbox">
+                <h4>Leave us your Feedback!</h4>
+                <form action="index.html" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="user_fullname"><br>
+                <label for="email">Email:  </label><br>
+                <input type="text" id="email" name="user_email"><br>
+                <label for="comment">Comments:</label><br>
+                <textarea id ="comment" name="user_comment"></textarea><br>
+                <button type="submit">Submit Information</button> 
+                </div>
+<!--        </fieldset>-->
         
         <footer>&copy Harper, Bri, Tamela 2017 </footer>
     </body>
