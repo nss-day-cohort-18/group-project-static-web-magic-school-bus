@@ -1,0 +1,5 @@
+.linear-gradient {
+	background-color: linear-gradient(top, blue, white);
+	width: 75%;
+	opacity: .5;
+}
