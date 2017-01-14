@@ -4,8 +4,7 @@
 
 
 var survivalKits = {
-  kindergarten: {poster: "images/kindergarten.jpg", title: "KinderGarten Survival Kit", price:"$40.00"},
-    
+  kindergarten: {poster: "images/kindergarten.jpg", title: "KinderGarten Survival Kit", price:"$40.00"}, 
   kindergatrenParents: {poster:"images/kinder-parent.jpg", title:"Kindergarten Parent Survival", price:"$40.00"},
   elementarySchool: {poster:"images/school-bus.jpg", title:"Elementary School Survival Kit", price:"$40.00"},
   middleSchool: {poster:"images/middle-school.jpg", title:"Middle School Survival Kit", price:"$40.00"},
