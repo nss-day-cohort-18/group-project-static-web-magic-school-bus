@@ -28,7 +28,9 @@ for (var key in survivalKits) {
     productSection.innerHTML += card;
 }
 
-
+//var card = "<article class='edukit'>" + "<h2></h2>" + "<div class='resize'><img class='resize' src='" + poster + "'></div>" + "<footer><p>" + price + "</p></footer></article>";
+//
+//}
 
 
 
