@@ -164,19 +164,7 @@ section {
 }
 
 
-.mainFooter {
-    background-color: #93DB70;
-    color: #464646;
-    text-align: center;
-    height: 4em;
-    width: 100%;  
-    background-image: linear-gradient(to top, #cc0000, #ff8080 70%, lightgray);
-    margin-top: 10em;
-/*    position: absolute;
-*/    
-    padding-top: 2em;
-    left: 0;
-}
+
 
 /*** Contact Page/*/
 label {
@@ -261,12 +249,14 @@ button:hover {
     height: 300px;
 }
 
-footer {
+ Footers for Main page and product cards
+
+.edukit footer {
     color: darkgreen;
     margin: 5%;
 }
 
-footer p {
+.edukit footer p {
     text-align: right;
 }
 
@@ -274,6 +264,19 @@ footer p {
     content="";
     display: table;
     clear: both;
+}
+.mainFooter {
+    background-color: #93DB70;
+    color: #464646;
+    text-align: center;
+    height: 4em;
+    width: 100%;  
+    background-image: linear-gradient(to top, #cc0000, #ff8080 70%, lightgray);
+    margin-top: 10em;
+/*    position: absolute;
+    
+    padding-top: 2em;
+    left: 0;
 }
 
 
