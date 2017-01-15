@@ -173,7 +173,9 @@ section {
     background-image: linear-gradient(to top, #cc0000, #ff8080 70%, lightgray);
     margin-top: 10em;
 /*    position: absolute;
-*/    padding-top: 2em;
+*/    
+    padding-top: 2em;
+    left: 0;
 }
 
 /*** Contact Page/*/
@@ -188,6 +190,7 @@ input {
     box-shadow: 1px;
 }
 
+/*
 
 fieldset {
     border-color: #9dbf8c;
@@ -197,6 +200,7 @@ fieldset {
     text-align: center;
     
 }
+*/
 
 
 .commentbox {
