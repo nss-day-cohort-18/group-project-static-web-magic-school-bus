@@ -196,6 +196,12 @@ h1 {
     margin: 10px;
 }
 
+h2 {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0 2%;
+}
+
 .homePage {
     margin: 0 auto;
     text-align: center;
