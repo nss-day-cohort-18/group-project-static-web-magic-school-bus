@@ -18,15 +18,14 @@ for (var key in survivalKits) {
     var title = product["title"];
     var price = product["price"];
     console.log(poster, title, price);
-<<<<<<< HEAD
+
 
 
 	var card = "<article class='edukit'>" + "<h2>" + title + "</h2>" + "<div class='resize'><img class='resize' src='" + poster + "'></div>" + "<footer><p>" + price + "</p></footer></article>";
-=======
-	  var card = "<article class='edukit'>" + "<h2>" + title + "</h2>" + "<div class='resize'><img class='resize' src='" + poster + "'></div>" + "<footer><p>" + price + "</p></footer></article>";
-  
->>>>>>> 9b50b49ea0097f2f0568a2da0e41155c7f47d935
-		productSection.innerHTML += card;
+
+    var card = "<article class='edukit'>" + "<h2>" + title + "</h2>" + "<div class='resize'><img class='resize' src='" + poster + "'></div>" + "<footer><p>" + price + "</p></footer></article>";
+
+    productSection.innerHTML += card;
 }
 
 
