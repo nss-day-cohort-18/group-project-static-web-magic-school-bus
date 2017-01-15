@@ -131,9 +131,29 @@ nav li:hover {
     border-left: 2px solid #464646;
 }
 
-.headerIcons img {
-    width: 25px;
+.headerIcons p:hover {
+/*
     height: 25px;
+    width: 40px;
+*/
+    float: right;
+    margin: 2px;;
+    display: inline-block;
+    font-size: 12px;
+    padding: 2px;
+   
+}
+
+.headerIcons img {
+    width: 20px;
+    height: auto;
+    display: inline-block;
+    float: left;
+}
+
+.headerIcons img:hover {
+    width: 25px;
+    height: auto;
     display: inline-block;
     float: left;
 }
@@ -187,26 +207,26 @@ section {
     width: 100%;
 }
 
-.bio {
-    text-align: center;
-    padding-top: 15px;
-}
 
 
-/*** Contact Page/*/
+
+
+
+/*************************** Contact Page/*/
 label {
     font-size: 12px;
 }
 
 input {
-    border-radius: 5px;
+    border-radius: 2px;
     border: 1px groove lightgray;
-    border-color: black;
-    box-shadow: 1px;
+    box-shadow: 0px 1px 1px ;
+    width: 70%;
+    margin-bottom: 1em;
 }
 
-/*
 
+/*
 fieldset {
     border-color: #9dbf8c;
     border-radius: 5px;
@@ -217,40 +237,112 @@ fieldset {
 }
 */
 
-/*    Contact Pge*/
+#contactSection {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
 
-.commentbox {
-    text-align: center;
-    border-color: black;
+#backgroundImage {
+    background-image: url(images/contactPage.jpg);
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 100%; 
+    float: left;
     border-radius: 5px;
-    max-width: 20%;
-    margin: 0 auto;
-    text-align: center;
+    border-bottom: 2px solid lightgrey;
+    border-right: 2px solid lightgray;
+    border-top: 1px solid lightgray;
+    box-shadow: 0 2px 5px 0;
     
 }
 
-button {
-    background-color: white;
+
+.commentbox {
     border-radius: 5px;
-    padding: 2px;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    height: 100%;
+    float: right;
+    background-color: azure;
+    border-bottom: 2px solid lightgrey;
+    border-right: 2px solid lightgray;
+    box-shadow: 0 2px 5px 0;   
+}
+
+#comment {
+    border-radius: 2px;
+    border: 1px groove lightgray;
+    box-shadow: 0px 1px 1px;
+    width: 90%;
+    height: 4em;
+    margin: 2em 0 1em;
+}
+
+button {
+    background-color: #00C957;
+    border-radius: 5px;
+    border: 1px groove lightgray;
+    box-shadow: 0px 1px 1px;
+    width: 40%;
+    height: 40%;
+    color: #464646;
+   
     
 }
 
 button:hover {
-    background-color: #464646;
-    color: #f6f6f6;
+    background-color: #9AFF9A;
+    width: 45%;
+    height: 45%;
+    border: 1px groove lightgray;
     
 }
 
-#comment {
-    border-radius: 5px;
-    border: 1px groove lightgray;
-    border-color: black;
-    box-shadow: 1px;
+.contactIcons {
+    width: 20%;
+    height: 100%;
+    float: right;
+    margin-top: 5%;
+}
+
+.contactDiv {
+    width: 40%;
+    height: 10%;
+    float: left;
+    padding-top: 5px;
+}
+
+.contactDivParagraph {
+    width: 60%;
+    height: 10%;
+    float: right;
+    font-size: 8px;
+    text-align: center;
 }
 
 
-/*   JavaScript         */
+.contactDiv img {
+    width: 30px;
+    height: 30px;
+    float: right;
+    display: inline-block;
+}
+
+.contactDiv img:hover {
+    width: 35px;
+    height: 35px;
+    
+}
+
+
+
+
+
+
+
+/*   JavaScript */        
 
 
 .edukit { 
@@ -290,13 +382,12 @@ button:hover {
 
 
 .mainFooter {
-    background-color: #93DB70;
     color: #464646;
     text-align: center;
-    height: 4em;
+    height: 5em;
     width: 100%;  
     background-image: linear-gradient(to top, #cc0000, #ff8080 70%, lightgray);
-    margin-top: 10em;
+    margin-top: 5em;
     position: absolute;
 }
  
@@ -309,9 +400,20 @@ button:hover {
 .homeIcons img {
     height: 25px;
     width: 25px;
-    margin: 5px;
+    margin: 8px;
 }
 
-.homeIcons p {
-    margin: 0;
+.homeIcons img:hover {
+    height: 55%;
+    width: auto;
+}
+
+
+
+
+/* About Page*****************************************/
+
+.bio {
+    text-align: center;
+    padding-top: 15px;
 }
