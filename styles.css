@@ -168,7 +168,6 @@ nav li:hover {
 
 
 
-
 /***  Images ***/
 
 .linear-gradient {
@@ -396,6 +395,7 @@ button:hover {
     background-image: linear-gradient(to top, #cc0000, #ff8080 70%, lightgray);
     margin-top: 5em;
     position: absolute;
+    
 }
  
 .homeIcons {
@@ -420,7 +420,13 @@ button:hover {
 
 /* About Page*****************************************/
 
+
+#about {
+    width: 40%;
+    margin: 0 4em;
+    display: inline-block;
+}
 .bio {
-    text-align: center;
+    text-align: justify;
     padding-top: 15px;
 }
