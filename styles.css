@@ -213,7 +213,11 @@ section {
 }
 
 
-
+#productCards {
+    border-bottom: 1px;
+    margin-bottom: 5px;
+d
+}
 
 
 
@@ -393,9 +397,8 @@ button:hover {
     height: 5em;
     width: 100%;  
     background-image: linear-gradient(to top, #cc0000, #ff8080 70%, lightgray);
-    margin-top: 5em;
-    position: absolute;
-    
+    margin-top: 35%;
+    margin-bottom: -5em;    
 }
  
 .homeIcons {
