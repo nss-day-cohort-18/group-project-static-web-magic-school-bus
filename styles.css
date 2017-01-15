@@ -98,27 +98,48 @@ nav li:hover {
     
 }
 
-.bio {
-    text-align: center;
-    padding-top: 15px;
-}
+
 
 
 .nav-div {
     width: 80%;
-    margin: 50px 0 0;
+    margin: 20px 0 0;
     display: inline-block;
     float: left;
     height: 100;
 }
 
+/***   Header Icons*/
+
+.headerIcons{
+    height: 25px;
+    width: 65px;
+    float: right;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.headerIcons p {
+    height: 20px;
+    width: 35px;
+    float: right;
+    margin: 2px;;
+    display: inline-block;
+    font-size: 10px;
+    padding: 2px;
+    border-left: 2px solid #464646;
+}
+
+.headerIcons img {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    float: left;
+}
 
 
-
-
-
-
-/*** Home page ********/
+/*** Home page *******
 
 .index-section {
     width: 100%;
@@ -137,22 +158,25 @@ nav li:hover {
     border: 2px solid black;
 }
 
+/*
 div.push {
     padding-bottom: 10%;
 }
+*/
 
 div#image {
-    width: 60%;
-    margin-right: 20%;
-    margin-left: 20%;
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
 }
 
 h1 {
     margin: 0 auto;
     text-align: center;
+    margin: 10px;
 }
 
-h2 {
+.homePage {
     margin: 0 auto;
     text-align: center;
 }
@@ -163,7 +187,10 @@ section {
     width: 100%;
 }
 
-
+.bio {
+    text-align: center;
+    padding-top: 15px;
+}
 
 
 /*** Contact Page/*/
@@ -190,6 +217,7 @@ fieldset {
 }
 */
 
+/*    Contact Pge*/
 
 .commentbox {
     text-align: center;
@@ -235,13 +263,6 @@ button:hover {
     float: left;
 }
 
- h2 {
-    text-align: center;
-    border-radius: 15%;
-    padding: .75em;
-    margin-top: 0;
-    margin-bottom: 0;
-}
 
 .resize { 
     width: 100%;
@@ -249,7 +270,14 @@ button:hover {
     height: 300px;
 }
 
- Footers for Main page and product cards
+#productCards:after {
+    content="";
+    display: table;
+    clear: both;
+}
+
+
+/* Footers for Main page and product cards*/
 
 .edukit footer {
     color: darkgreen;
@@ -260,11 +288,7 @@ button:hover {
     text-align: right;
 }
 
-#productCards:after {
-    content="";
-    display: table;
-    clear: both;
-}
+
 .mainFooter {
     background-color: #93DB70;
     color: #464646;
@@ -273,10 +297,21 @@ button:hover {
     width: 100%;  
     background-image: linear-gradient(to top, #cc0000, #ff8080 70%, lightgray);
     margin-top: 10em;
-/*    position: absolute;
-    
-    padding-top: 2em;
-    left: 0;
+    position: absolute;
+}
+ 
+.homeIcons {
+    width: 100%;
+    height: 50%;
+    margin: 0;
 }
 
+.homeIcons img {
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+}
 
+.homeIcons p {
+    margin: 0;
+}
