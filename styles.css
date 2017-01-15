@@ -232,7 +232,7 @@ button:hover {
    margin: 1%;
    display: block;
     font-family: Helvetica, Arial, sans-serif;
-   border: 5px solid lightgray;
+   border: 5px solid white;
     border-radius: 15%;
     float: left;
 }
@@ -247,7 +247,7 @@ button:hover {
 
 .resize { 
     width: 100%;
-    border: 3px solid lightgray;
+    border: 3px solid white;
     height: 300px;
 }
 
