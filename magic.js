@@ -7,7 +7,7 @@ var survivalKits = {
   highSchool: {poster:"images//high-school.jpg", title:"High School Surivival Kit", price:"$40.00"},
   college: {poster:"images//college.jpg", title:"College Survival Kit", price:"$40.00"},
   collegeParent: {poster:"images//college-parent.jpg", title:"College Parent Survival Kit", price:"$40.00"},
-  codeBootcamp: {poster:"images//lines-of-code.jpg", title:"Coding Bootcamp Survival Kit", price:"$40.00"},
+  codeBootcamp: {poster:"images//lines-of-code.jpg", title:"Coding Bootcamp Survival", price:"$40.00"},
  
 }
 
