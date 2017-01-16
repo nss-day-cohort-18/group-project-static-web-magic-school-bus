@@ -1,13 +1,14 @@
 var survivalKits = {
 
-  kindergarten: {poster: "images//school-bus.jpg", title: "KinderGarten Kit", price:"$40.00"}, 
-  kindergartenParents: {poster:"images//school-bus.jpg", title:"Kinder-Parent Survival", price:"$40.00"},
+  kindergarten: {poster: "images//kindergarten.jpg", title: "KinderGarten Kit", price:"$40.00"}, 
+  kindergartenParents: {poster:"images//kinder-parent.jpg", title:"Kinder-Parent Survival Kit", price:"$40.00"},
   elementarySchool: {poster:"images//school-bus.jpg", title:"Elementary Survival Kit", price:"$40.00"},
-  middleSchool: {poster:"images//middle-school.jpg", title:"Middle School Survival", price:"$40.00"},
-  highSchool: {poster:"images//high-school.jpg", title:"High School Surivival kit", price:"$40.00"},
+  middleSchool: {poster:"images//middle-school.jpg", title:"Middle School Survival Kit", price:"$40.00"},
+  highSchool: {poster:"images//high-school.jpg", title:"High School Surivival Kit", price:"$40.00"},
   college: {poster:"images//college.jpg", title:"College Survival Kit", price:"$40.00"},
-  collegeParent: {poster:"images//college-parent.jpg", title:"College Parent Survival", price:"$40.00"},
-
+  collegeParent: {poster:"images//college-parent.jpg", title:"College Parent Survival Kit", price:"$40.00"},
+  codeBootcamp: {poster:"images//lines-of-code.jpg", title:"Coding Bootcamp Survival Kit", price:"$40.00"},
+ 
 }
 
 var productSection = document.getElementById("productCards");
