@@ -189,7 +189,7 @@ div#image {
     margin-left: 25%;
 }
 
-h1, h4 {
+h1, h3, h4 {
     margin: 0 auto;
     text-align: center;
     margin: 10px;
@@ -397,8 +397,10 @@ button:hover {
     height: 5em;
     width: 100%;  
     background-image: linear-gradient(to top, #cc0000, #ff8080 70%, lightgray);
-    margin-top: 35%;
-    margin-bottom: -5em;    
+    /*padding-top: 3%;*/ 
+    margin-top: 10%;
+    margin-bottom: -5em;   
+    border-top: 1px solid lightgray;
 }
  
 .homeIcons {
@@ -424,12 +426,34 @@ button:hover {
 /* About Page*****************************************/
 
 
-#about {
-    width: 40%;
-    margin: 0 4em;
-    display: inline-block;
+div#about {
+    padding: 5%;
+    background: #FFF;
+    width: 70%;
+    margin: 0 auto;
+    display: block;
 }
-.bio {
+p.bio {
     text-align: justify;
     padding-top: 15px;
 }
+
+img#formula {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+img.finalTotal {
+    display: inline-block;
+    margin: 3% auto;
+
+}
+
+
+
+
+
+
+
+
+
